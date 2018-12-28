@@ -35,6 +35,7 @@ exports.setRequestUrl=function(app){
     app.post("/article/saveArticleDetail",articleObj.saveArticleDetail);
     app.get("/article/listContext",articleObj.listContextPage);
     app.get("/article/articleTypeAll",articleObj.articleTypeAll);
+	
 
 
 }
