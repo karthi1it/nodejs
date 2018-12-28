@@ -37,5 +37,4 @@ exports.setRequestUrl=function(app){
     app.get("/article/articleTypeAll",articleObj.articleTypeAll);
 
 
-
 }
